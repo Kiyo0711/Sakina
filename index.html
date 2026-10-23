@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0B6A63">
+<meta name="theme-color" content="#12305E">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-512.png">
@@ -19,20 +19,12 @@
 /* Layout: app shell. Sticky top bar, one centered column (max 40rem), fixed bottom tab bar with five large targets.
    Home ("Heute") leads with the next prayer; everything else is one tap away. Text size scales the whole UI via --ui. */
 :root {
-  --bg: #F1F5F3;
-  --surface: #FFFFFF;
-  --surface-2: #E6EEEB;
-  --fg: #0F1F1B;
-  --muted: #56675F;
-  --line: #D6E0DC;
-  --accent: #0C7A61;
-  --accent-ink: #FFFFFF;
-  --accent-soft: #DCF1E9;
-  --gold: #A87A1E;
-  --hero-a: #0C7A61;
-  --hero-b: #08503F;
-  --hero-ink: #FFFFFF;
-  --shadow: 0 1px 2px rgba(15, 31, 27, .06), 0 6px 20px rgba(15, 31, 27, .06);
+  --bg: #F6F0E3; --surface: #FFFBF2; --surface-2: #EDE3CC; --fg: #14213D; --muted: #5B6478; --line: #E0D3B6;
+  --accent: #1B4F8F; --accent-ink: #FFFFFF; --accent-soft: #DCE6F4; --gold: #B8892B;
+  --hero-a: #1E5AA8; --hero-b: #12305E; --hero-ink: #FFFFFF;
+  --shadow: 0 1px 2px rgba(20, 33, 61, .06), 0 6px 20px rgba(20, 33, 61, .08);
+  --allah: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%2260%20-1090%20835%201091%22%3E%3Cpath%20transform%3D%22scale%281%2C-1%29%22%20d%3D%22M361%20106Q375%20106%20381%2080Q387%2054%20381%2028Q375%202%20362%201Q276%20-8%20256%2096Q255%2099%20255%20102Q222%2053%20205%2050Q117%2034%2071%2066Q54%2078%2063%20103Q81%20161%20131%20202Q182%20244%20238%20257L236%20306Q236%20314%20253%20350Q262%20367%20267.0%20377.5Q272%20388%20273%20390Q284%20408%20286%20377Q286%20371%20286.5%20353.0Q287%20335%20288%20304Q289%20273%20290.5%20244.5Q292%20216%20295%20188Q301%20133%20327%20115Q339%20106%20361%20106ZM240%20209Q230%20207%20216.0%20201.5Q202%20196%20184%20187Q148%20169%20138%20150Q154%20138%20208%20140Q235%20142%20246%20154Q245%20159%20243.5%20173.0Q242%20187%20240%20209ZM340%201083Q345%201098%20358%201082Q453%20976%20423%20814Q422%20805%20413%20803Q405%20802%20403%20814Q389%20919%20326%20997Q318%201006%20321%201019ZM516%20768Q519%20791%20531%20789Q546%20787%20545%20768Q542%20716%20525%20679Q505%20636%20469%20633Q446%20632%20425%20657Q418%20644%20408.0%20635.0Q398%20626%20387%20620Q362%20607%20338%20617Q280%20641%20325%20757Q330%20768%20337%20770Q341%20771%20346%20769Q357%20764%20353%20747Q336%20688%20367%20684Q405%20680%20427%20765Q432%20782%20443%20779Q456%20776%20453%20764Q447%20729%20460%20718Q467%20713%20477%20713Q510%20713%20516%20768ZM596%20115Q614%20112%20620%2084Q626%2056%20620%2029Q614%201%20605%201Q564%200%20534%2026Q507%2050%20479%20103Q464%2068%20451.0%2046.5Q438%2025%20426%2018Q400%203%20363%202Q340%200%20328%2028Q316%2055%20323%2080Q331%20106%20362%20106Q434%20106%20456%20156Q456%20156%20454.5%20167.0Q453%20178%20449%20200L427%20313Q420%20348%20416.0%20371.5Q412%20395%20410%20408Q407%20434%20414%20444L443%20490Q453%20504%20459%20478Q461%20472%20464.0%20453.5Q467%20435%20471%20405Q503%20201%20527%20161Q551%20121%20596%20115ZM612%20477%20663%20242Q668%20216%20671.5%20198.0Q675%20180%20676%20169Q677%20159%20677.0%20147.0Q677%20135%20675%20121Q663%201%20605%201Q574%201%20554.5%2043.0Q535%2085%20551%20103Q568%20122%20590%20116Q614%20110%20631%20118Q630%20130%20623.5%20162.0Q617%20194%20605%20245Q581%20345%20569%20415Q565%20442%20596%20487Q606%20503%20612%20477ZM828%20670Q849%20719%20855%20672L878%20427Q916%2096%20869%207Q862%20-5%20858%201Q854%206%20854%2018Q856%20102%20842%20207Q842%20211%20821%20397L799%20578Q797%20598%20803%20612Z%22%2F%3E%3C%2Fsvg%3E");
+  --pat: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='-36 -36 72 72'%3E%3Cg fill='none' stroke='%23E6C77A' stroke-opacity='.22' stroke-width='1.2'%3E%3Crect x='-13' y='-13' width='26' height='26'/%3E%3Crect x='-13' y='-13' width='26' height='26' transform='rotate(45)'/%3E%3Ccircle r='5'/%3E%3Cpath d='M-36 0h10M26 0h10M0 -36v10M0 26v10'/%3E%3C/g%3E%3C/svg%3E"); --bgpat: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='-36 -36 72 72'%3E%3Cg fill='none' stroke='%23B8892B' stroke-opacity='.13' stroke-width='1.2'%3E%3Crect x='-13' y='-13' width='26' height='26'/%3E%3Crect x='-13' y='-13' width='26' height='26' transform='rotate(45)'/%3E%3Ccircle r='5'/%3E%3Cpath d='M-36 0h10M26 0h10M0 -36v10M0 26v10'/%3E%3C/g%3E%3C/svg%3E"); --wm: .12;
   --f-ar: 'Amiri Quran', 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', serif;
   --f-text: 'Literata', Georgia, 'Times New Roman', serif;
   --f-ui: 'Figtree', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -42,19 +34,30 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #09120F; --surface: #111D19; --surface-2: #192823; --fg: #E4EEEA; --muted: #95A9A2; --line: #22342E;
-    --accent: #4CD2A3; --accent-ink: #03201A; --accent-soft: #143A2F; --gold: #D8B262;
-    --hero-a: #11604E; --hero-b: #0A3B31; --hero-ink: #FFFFFF; --shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    --bg: #0A1124; --surface: #111B36; --surface-2: #18254A; --fg: #EEE8D8; --muted: #A3AAC0; --line: #243259;
+    --accent: #E2BC6A; --accent-ink: #1A1203; --accent-soft: #1E2A4F; --gold: #E2BC6A;
+    --hero-a: #1B3A7A; --hero-b: #0E2150; --hero-ink: #FFFFFF; --shadow: 0 1px 2px rgba(0, 0, 0, .35); --wm: .12;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #09120F; --surface: #111D19; --surface-2: #192823; --fg: #E4EEEA; --muted: #95A9A2; --line: #22342E;
-  --accent: #4CD2A3; --accent-ink: #03201A; --accent-soft: #143A2F; --gold: #D8B262;
-  --hero-a: #11604E; --hero-b: #0A3B31; --hero-ink: #FFFFFF; --shadow: 0 1px 2px rgba(0, 0, 0, .3);
+  --bg: #0A1124; --surface: #111B36; --surface-2: #18254A; --fg: #EEE8D8; --muted: #A3AAC0; --line: #243259;
+  --accent: #E2BC6A; --accent-ink: #1A1203; --accent-soft: #1E2A4F; --gold: #E2BC6A;
+  --hero-a: #1B3A7A; --hero-b: #0E2150; --hero-ink: #FFFFFF; --shadow: 0 1px 2px rgba(0, 0, 0, .35); --wm: .12;
   color-scheme: dark;
 }
+html::before { content: ""; position: fixed; inset: 0; z-index: -2; background-image: var(--bgpat); background-size: 72px 72px; pointer-events: none; }
 
+
+body::after { content: ""; position: fixed; left: 50%; top: 42%; width: min(80vw, 380px); aspect-ratio: 0.765; transform: translate(-50%, -50%); z-index: -1; background: var(--gold); opacity: var(--wm); -webkit-mask: var(--allah) center / contain no-repeat; mask: var(--allah) center / contain no-repeat; pointer-events: none; }
+.hero > *, .next > * { position: relative; z-index: 1; }
+.hero::before, .next::before { content: ""; position: absolute; right: 14px; bottom: 10px; width: 5.2rem; aspect-ratio: 0.765; background: #E6C77A; opacity: .34; -webkit-mask: var(--allah) center / contain no-repeat; mask: var(--allah) center / contain no-repeat; pointer-events: none; }
+.next { position: relative; overflow: hidden; }
+
+.hjump { min-width: 0; display: grid; gap: 6px; width: 100%; justify-self: stretch; font-weight: 600; }
+.hjump .hj { display: flex; gap: 8px; min-width: 0; } .hjump .btn { flex: none; }
+.hjump input { flex: 1; min-width: 0; min-height: 48px; border: 1px solid var(--line); border-radius: 14px; background: var(--bg); color: var(--fg); padding: 8px 14px; font: inherit; }
+#hday .seg { margin: 4px 0 14px; }
 *, *::before, *::after { box-sizing: border-box; }
 html { font-size: calc(17px * var(--ui)); -webkit-text-size-adjust: 100%; }
 body {
@@ -131,7 +134,7 @@ select { font: inherit; color: var(--fg); background: var(--surface); border: 1p
 .hello .d { color: var(--muted); font-size: .95rem; }
 .hero {
   position: relative; overflow: hidden; border-radius: 26px; padding: 20px; color: var(--hero-ink);
-  background: radial-gradient(120% 90% at 100% 0%, rgba(255, 255, 255, .16), transparent 60%), linear-gradient(150deg, var(--hero-a), var(--hero-b));
+  background: radial-gradient(120% 90% at 100% 0%, rgba(255, 255, 255, .16), transparent 60%), var(--pat), linear-gradient(150deg, var(--hero-a), var(--hero-b));
 }
 .hero::after {
   content: ""; position: absolute; right: -40px; bottom: -60px; width: 220px; height: 220px; border-radius: 50%;
@@ -187,7 +190,7 @@ select { font: inherit; color: var(--fg); background: var(--surface); border: 1p
 .place .pl { background: none; border: 0; min-height: 44px; padding: 8px 4px 8px 16px; font-size: .95rem; font-weight: 600; color: var(--fg); }
 .place .px { background: none; border: 0; min-width: 44px; padding: 8px 14px 8px 8px; font-size: 1.15rem; line-height: 1; color: var(--muted); }
 .place.on .pl, .place.on .px { color: var(--accent-ink); }
-.next { border-radius: 20px; padding: 16px; margin-bottom: 14px; background: linear-gradient(150deg, var(--hero-a), var(--hero-b)); color: var(--hero-ink); }
+.next { border-radius: 20px; padding: 16px; margin-bottom: 14px; background: var(--pat), linear-gradient(150deg, var(--hero-a), var(--hero-b)); color: var(--hero-ink); }
 .next .k { font-size: .78rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; opacity: .85; }
 .next .n { font-weight: 800; font-size: 1.45rem; line-height: 1.25; margin-top: 2px; }
 .next .c { font-weight: 600; font-variant-numeric: tabular-nums; opacity: .95; }
@@ -307,7 +310,7 @@ select { font: inherit; color: var(--fg); background: var(--surface); border: 1p
 .tsr { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px; }
 
 /* ---------- Hadith ---------- */
-.hday { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 18px; display: grid; gap: 6px; justify-items: start; box-shadow: var(--shadow); }
+.hday { grid-template-columns: minmax(0, 1fr); background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 18px; display: grid; gap: 6px; justify-items: start; box-shadow: var(--shadow); }
 .hday .k { font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
 .hday .btn { margin-top: 8px; }
 .hnum { font-size: .76rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
@@ -1037,7 +1040,7 @@ function hm(m){return m==null?'–':String(Math.floor(m/60)).padStart(2,'0')+':'
       (full ? '<p class="ar har" lang="ar" dir="rtl">' + esc(h.ar) + '</p>' : '') +
       '<p class="de hde">' + esc(h.de) + '</p><div class="hsrc">Quelle: ' + esc(h.src) + '</div>';
   }
-  function renderHadith() {
+  function renderNawawi() {
     if (hOpen !== null) {
       var p = hOpen > 0 ? hOpen - 1 : null, n = hOpen < 41 ? hOpen + 1 : null;
       $('#hday').innerHTML = '<button class="back" data-hback="1">← Alle Hadithe</button><article class="hfull">' + hadithCard(hOpen, true) + '</article>' +
@@ -1051,6 +1054,80 @@ function hm(m){return m==null?'–':String(Math.floor(m/60)).padStart(2,'0')+':'
     $('#hlist').innerHTML = '<h2 class="h2">Die 40 Hadithe von an-Nawawi</h2>' + EXTRA.hadith.map(function (h, i) {
       return '<button class="row" data-hi="' + i + '"><span class="medal"><b>' + (i + 1) + '</b></span><span class="mid"><span class="nm">' + esc(h.t) + '</span><span class="meta">' + esc(h.by) + '</span></span><span></span></button>';
     }).join('') + '<p class="src">Arabischer Text aus der hadith-api von fawazahmed0. Deutsche Übersetzung von Claude nach der englischen Fassung, nicht von einem Gelehrten geprüft.</p>';
+  }
+
+  /* Bukhari + Muslim (lazy loaded files next to index.html) */
+  var hSet = store.get('kl-hset', 'n'); if (['n', 'bukhari', 'muslim'].indexOf(hSet) < 0) hSet = 'n';
+  var HNAME = { bukhari: 'Sahih al-Bukhari', muslim: 'Sahih Muslim' };
+  var hIdx = null, hChunks = {}, hCur = null, hErr = '';
+  function hFetch(url) { return fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  function hLoad(cb) {
+    if (hIdx) return cb();
+    hFetch('hidx.json').then(function (j) { hIdx = j; hErr = ''; cb(); }).catch(function () { hErr = 'Die Hadith-Dateien konnten nicht geladen werden. Sie müssen im selben Ordner wie index.html liegen (hidx.json, hb-*.json, hm-*.json) und du brauchst Internet.'; renderHadith(); });
+  }
+  function hChunk(set, f, cb) {
+    var k = set + f;
+    if (hChunks[k]) return cb(hChunks[k]);
+    hFetch(hIdx[set].pre + '-' + f + '.json').then(function (j) { hChunks[k] = j; cb(j); }).catch(function () { hErr = 'Dieses Kapitel konnte nicht geladen werden. Prüfe deine Internetverbindung.'; renderHadith(); });
+  }
+  function hSeg() {
+    return '<div class="seg" role="tablist">' + [['n', '40 Nawawi'], ['bukhari', 'Bukhari'], ['muslim', 'Muslim']].map(function (x) {
+      return '<button role="tab" data-hset="' + x[0] + '" aria-selected="' + (hSet === x[0]) + '">' + x[1] + '</button>';
+    }).join('') + '</div>';
+  }
+  function hSource(set) {
+    return '<p class="src">' + HNAME[set] + ': Arabischer Text und englische Übersetzung aus der hadith-api von fawazahmed0. Es gibt dafür keine freie deutsche Übersetzung. Die englische Fassung wurde nicht von Claude geschrieben.</p>';
+  }
+  function renderCollection() {
+    var set = hSet, box = $('#hday');
+    $('#hlist').innerHTML = '';
+    if (!STANDALONE) { box.innerHTML = hSeg() + '<div class="hday"><div class="k">' + HNAME[set] + '</div><p class="de hde">Die großen Sammlungen sind in der installierten Version der App enthalten, die über einen Link geöffnet wird. In dieser Vorschau gibt es nur die 40 Hadithe von an-Nawawi.</p></div>'; return; }
+    if (hErr) { box.innerHTML = hSeg() + '<div class="hday"><div class="k">Fehler</div><p class="de hde">' + esc(hErr) + '</p><button class="btn" data-hretry="1">Nochmal versuchen</button></div>'; return; }
+    if (!hIdx) { box.innerHTML = hSeg() + '<p class="src">Lädt …</p>'; return hLoad(renderHadith); }
+    var books = hIdx[set].books;
+    if (!hCur || hCur.set !== set) {
+      box.innerHTML = hSeg() + '<div class="hday"><div class="k">' + HNAME[set] + '</div><label class="hjump"><span>Hadith-Nummer</span><span class="hj"><input id="hnum" type="number" inputmode="numeric" min="1" placeholder="z. B. 1"><button class="btn" id="hgo">Öffnen</button></span></label></div>' +
+        '<h2 class="h2">' + books.length + ' Bücher</h2>' + books.map(function (b) {
+          return '<button class="row" data-hbk="' + b.n + '"><span class="medal"><b>' + b.n + '</b></span><span class="mid"><span class="nm">' + esc(b.n === 0 ? 'Einleitung und weitere Überlieferungen' : b.t) + '</span><span class="meta">' + b.c + ' Hadithe · Nr. ' + b.a + '–' + b.z + '</span></span><span></span></button>';
+        }).join('') + hSource(set);
+      return;
+    }
+    var bk = books.filter(function (b) { return b.n === hCur.book; })[0];
+    box.innerHTML = hSeg() + '<p class="src">Lädt …</p>';
+    hChunk(set, bk.f, function (ch) {
+      var hs = ch[String(bk.n)] || [], st = Math.max(0, Math.min(hCur.start, Math.max(0, hs.length - 1))), en = Math.min(hs.length, st + 8);
+      var bi = books.indexOf(bk), pb = books[bi - 1], nb = books[bi + 1];
+      var h = '<button class="back" data-hbooks="1">← Alle Bücher</button><div class="hnum">' + HNAME[set] + ' · Buch ' + bk.n + '</div><h2 class="htitle">' + esc(bk.t) + '</h2>';
+      for (var i = st; i < en; i++) {
+        var x = hs[i];
+        h += '<article class="hfull"' + (hCur.hl === x[0] ? ' id="hhl"' : '') + '><div class="hnum">Nr. ' + x[0] + '</div>' + (x[1] ? '<p class="ar har" lang="ar" dir="rtl">' + esc(x[1]) + '</p>' : '') + (x[2] ? '<p class="de hde" lang="en">' + esc(x[2]) + '</p>' : '') + '</article>';
+      }
+      h += '<nav class="pn">' + (st > 0 ? '<button data-hstart="' + Math.max(0, st - 8) + '">← Zurück</button>' : (pb ? '<button data-hbk="' + pb.n + '">← Buch ' + pb.n + '</button>' : '<span></span>')) +
+        (en < hs.length ? '<button data-hstart="' + en + '">Weiter ' + en + '/' + hs.length + ' →</button>' : (nb ? '<button data-hbk="' + nb.n + '">Buch ' + nb.n + ' →</button>' : '<span></span>')) + '</nav>';
+      box.innerHTML = hSeg() + h;
+      var el = $('#hhl'); if (el && el.scrollIntoView) el.scrollIntoView({ block: 'start' });
+    });
+  }
+  function hGo(set, num) {
+    hLoad(function () {
+      var b = hIdx[set].books.filter(function (b) { return b.n > 0 && b.a <= num; }).pop();
+      if (!b) { hCur = null; hErr = ''; return renderHadith(); }
+      hChunk(set, b.f, function (ch) {
+        var hs = ch[String(b.n)], k = 0;
+        for (var i = 0; i < hs.length; i++) { if (hs[i][0] <= num) k = i; }
+        hCur = { set: set, book: b.n, start: k, hl: hs[k][0] };
+        renderHadith();
+      });
+    });
+  }
+  function renderHadith() {
+    if (hSet === 'n') {
+      renderNawawi();
+      if (hOpen === null) $('#hday').insertAdjacentHTML('afterbegin', hSeg());
+      else $('#hday').insertAdjacentHTML('afterbegin', hSeg());
+      return;
+    }
+    renderCollection();
   }
 
   document.addEventListener('click', function (e) {
@@ -1073,6 +1150,12 @@ function hm(m){return m==null?'–':String(Math.floor(m/60)).padStart(2,'0')+':'
     if (t.id === 'dreset') { var a = dCounts(); a[dset] = []; store.set('kl-dh', a); return renderDhikr(); }
     if (t.id === 'tsb') { tasbih++; store.set('kl-tasbih', tasbih); if (navigator.vibrate) { try { navigator.vibrate(tasbih % 33 === 0 ? [30, 60, 30] : 10); } catch (er) {} } return renderDhikr(); }
     if (t.id === 'tsr') { tasbih = 0; store.set('kl-tasbih', 0); return renderDhikr(); }
+    if (t.dataset.hset) { hSet = t.dataset.hset; store.set('kl-hset', hSet); hOpen = null; hErr = ''; if (hCur && hCur.set !== hSet) hCur = null; renderHadith(); return; }
+    if (t.dataset.hretry) { hErr = ''; return renderHadith(); }
+    if (t.dataset.hbk) { hCur = { set: hSet, book: +t.dataset.hbk, start: 0 }; renderHadith(); return window.scrollTo(0, 0); }
+    if (t.dataset.hbooks) { hCur = null; renderHadith(); return window.scrollTo(0, 0); }
+    if (t.dataset.hstart) { hCur.start = +t.dataset.hstart; hCur.hl = null; renderHadith(); return window.scrollTo(0, 0); }
+    if (t.id === 'hgo') { var nn = parseInt(($('#hnum') || {}).value, 10); if (nn > 0) hGo(hSet, nn); return; }
     if (t.dataset.hi) { hOpen = +t.dataset.hi; if (view !== 'hadith') go('hadith'); else renderHadith(); return window.scrollTo(0, 0); }
     if (t.dataset.hback) { hOpen = null; return renderHadith(); }
   });
